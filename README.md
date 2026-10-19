@@ -82,7 +82,7 @@ Confirm that the exact installer you download supports your operating system and
 
 ## 3. Download from the Official Cisco Website
 
-### Step 1 — Open Cisco's Resource Hub
+### Step 1 :Open Cisco's Resource Hub
 
 Go to:
 
@@ -94,7 +94,7 @@ You can also try the Skills for All resource page:
 
 Use Cisco's official pages rather than third-party download mirrors.
 
-### Step 2 — Sign in
+### Step 2 :Sign in
 
 1. Sign in with your Cisco Networking Academy or Skills for All account.
 2. If you do not have an account, follow the account-creation instructions on the official site.
@@ -102,7 +102,7 @@ Use Cisco's official pages rather than third-party download mirrors.
 
 Cisco may change the sign-in and enrollment flow. Follow the instructions shown on the official site if it asks you to enroll in a free learning course or complete an account step.
 
-### Step 3 — Choose your operating system
+### Step 3 : Choose your operating system
 
 Find **Cisco Packet Tracer** and select the installer matching your computer:
 
@@ -114,7 +114,7 @@ Find **Cisco Packet Tracer** and select the installer matching your computer:
 
 The exact filename and version number may differ. Download only the installer intended for your operating system and processor.
 
-### Step 4 — Wait for the download to finish
+### Step 4 : Wait for the download to finish
 
 - Remember the folder where your browser saved the file. It is often the **Downloads** folder.
 - Do not rename the installer unless you have a specific reason to do so.
@@ -128,7 +128,7 @@ Continue to the installation instructions for your operating system.
 
 > Use the Windows installer provided on Cisco's official Resource Hub. Check the page for the currently supported Windows version and processor architecture.
 
-### Step 1 — Find the downloaded installer
+### Step 1 : Find the downloaded installer
 
 1. Open **File Explorer**.
 2. Open **Downloads**.
@@ -136,13 +136,13 @@ Continue to the installation instructions for your operating system.
 
 The filename varies by release.
 
-### Step 2 — Start the installer
+### Step 2:Start the installer
 
 1. Double-click the `.exe` file.
 2. If Windows asks for permission to make changes, verify that you downloaded the installer from Cisco and review the prompt.
 3. Continue only if you trust the installer.
 
-### Step 3 — Accept the license agreement
+### Step 3:Accept the license agreement
 
 1. Read the license agreement.
 2. Select the option to accept it if you agree.
@@ -150,7 +150,7 @@ The filename varies by release.
 
 You must agree to the license terms to continue.
 
-### Step 4 — Choose the installation location
+### Step 4:Choose the installation location
 
 1. Review the destination folder shown by the installer.
 2. Keep the default location unless you have a reason to change it.
@@ -158,25 +158,25 @@ You must agree to the license terms to continue.
 
 Using the default location makes it easier to follow standard troubleshooting instructions.
 
-### Step 5 — Configure shortcuts
+### Step 5: Configure shortcuts
 
 1. Review the Start Menu folder and shortcut options.
 2. Choose whether you want a desktop shortcut if the installer offers one.
 3. Click **Next**.
 
-### Step 6 — Install
+### Step 6: Install
 
 1. Review the installation settings.
 2. Click **Install**.
 3. Wait for the progress bar to finish.
 4. If Windows displays a security prompt, read it carefully before deciding whether to continue.
 
-### Step 7 — Finish
+### Step 7 :Finish
 
 1. Click **Finish** when the installer completes.
 2. Leave the option to launch Packet Tracer enabled if you want to open it immediately.
 
-### Step 8 — Launch Packet Tracer later
+### Step 8 : Launch Packet Tracer later
 
 If the application did not launch automatically:
 
@@ -194,7 +194,7 @@ Proceed to [First Launch and Login](#7-first-launch-and-login).
 
 > The official Linux package is provided for Ubuntu in `.deb` format. Do not assume that this package is supported on every Linux distribution. Check Cisco's current compatibility notes before installing it on a distribution other than a listed Ubuntu release.
 
-### Step 1 — Download the Ubuntu package
+### Step 1 :Download the Ubuntu package
 
 1. Open Cisco's [Resource Hub](https://www.netacad.com/resources/lab-downloads).
 2. Sign in.
@@ -203,7 +203,7 @@ Proceed to [First Launch and Login](#7-first-launch-and-login).
 
 The filename may resemble `CiscoPacketTracer_..._Ubuntu_64bit.deb`. The version portion varies.
 
-### Step 2 — Open Terminal
+### Step 2 : Open Terminal
 
 Use the keyboard shortcut:
 
@@ -213,7 +213,7 @@ Ctrl + Alt + T
 
 Or open **Terminal** from the applications menu.
 
-### Step 3 — Go to Downloads
+### Step 3 :Go to Downloads
 
 ```bash
 cd ~/Downloads
@@ -233,7 +233,7 @@ ls -lh
 
 Use the actual filename shown on your computer in the next command.
 
-### Step 4 — Install the package
+### Step 4 : Install the package
 
 The recommended command in Cisco's instructions is:
 
@@ -270,7 +270,7 @@ During installation, a text-based license dialog may appear.
 
 The mouse may not work in this terminal-based dialog, so use the keyboard.
 
-### Step 7 — Wait for installation to finish
+### Step 7: Wait for installation to finish
 
 Wait until the command returns to the shell prompt without reporting an installation failure.
 
@@ -282,7 +282,7 @@ sudo apt --fix-broken install
 
 Read the proposed changes before confirming. If the issue remains, copy the full error message and check Cisco's compatibility requirements for your Ubuntu version.
 
-### Step 8 — Launch Packet Tracer
+### Step 8:Launch Packet Tracer
 
 Try opening it from the applications menu:
 
@@ -298,7 +298,7 @@ packettracer
 
 If the command is not found, that does not necessarily mean installation failed; launch it from the applications menu and investigate the package installation if it still does not open.
 
-### Optional — Confirm the package is installed
+### (Optional)Confirm the package is installed
 
 ```bash
 dpkg -l | grep -i packettracer
@@ -341,7 +341,7 @@ Follow the installer window shown by your downloaded release:
 
 Do not assume every release uses exactly the same installation layout.
 
-### Step 4 — Eject the disk image
+### Step 4 : 
 
 After installation:
 
@@ -351,13 +351,13 @@ After installation:
 
 You can keep or delete the downloaded `.dmg` installer after confirming that the application works.
 
-### Step 5 — Launch Packet Tracer
+### Step 5 : Launch Packet Tracer
 
 1. Open **Finder → Applications**.
 2. Find **Cisco Packet Tracer**.
 3. Double-click it.
 
-### Step 6 — Handle macOS security prompts carefully
+### Step 6 : Handle macOS security prompts carefully
 
 If macOS blocks the application:
 
@@ -372,7 +372,7 @@ Proceed to [First Launch and Login](#7-first-launch-and-login).
 
 ---
 
-## 7. First Launch and Login
+## 7. First launch and login
 
 The first launch may require you to authenticate through Cisco Networking Academy or Skills for All.
 
@@ -403,15 +403,15 @@ If these steps work, the application is installed and able to save and open proj
 
 ## 9. Create and Save Your First Project
 
-### Step 1 — Create a new workspace
+### Step 1 : Create a new workspace
 
 Open Packet Tracer and start a new project if necessary.
 
-### Step 2 — Add devices
+### Step 2 : Add devices
 
 From the device selection panel, add a PC and a switch to the workspace.
 
-### Step 3 — Connect the devices
+### Step 3 : Connect the devices
 
 1. Select the connection tool (lightning-bolt icon in many versions).
 2. Choose a suitable Ethernet cable, or use the automatic connection option if available.
@@ -420,14 +420,14 @@ From the device selection panel, add a PC and a switch to the workspace.
 
 Interface names vary by device model.
 
-### Step 4 — Save the project
+### Step 4 :Save the project
 
 1. Open **File → Save As**.
 2. Choose a folder where you can find your work.
 3. Give the project a descriptive name, such as `first-network.pkt`.
 4. Click **Save**.
-
-### Step 5 — Confirm the file exists
+:
+### Step 5 Confirm the file exists
 
 Check the folder you selected. The saved project should have the `.pkt` extension.
 
@@ -479,7 +479,7 @@ Do not assume that the executable command must have the same name on every relea
 - On macOS, check the security prompt and processor compatibility.
 - If the download may be incomplete, download a fresh installer from Cisco.
 
-### Problem: Login fails
+### IF Login fails
 
 - Confirm that your internet connection works.
 - Verify your Cisco/Skills for All credentials in the official website.
